@@ -1,0 +1,10 @@
+puts "What's your name?"
+name = gets.chomp
+name2 = name.downcase!
+puts "Where did you grow up?"
+home = gets.chomp
+puts "What's your occupation?"
+occupation = gets.chomp
+puts "Do you have any hidden talents?"
+talents = gets.chomp
+puts "My name is " + name + " and I am from " + from + ". I " + doing + " and my hidden talent is I " + talent + "."
