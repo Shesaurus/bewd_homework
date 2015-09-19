@@ -7,5 +7,5 @@ puts "What's your occupation?"
 occupation = gets.chomp
 puts "Do you have any hidden talents?"
 talents = gets.chomp
-puts "My name is " + name + " and I am from " + from + ". I " + doing + " and my hidden talent is I " + talent + "."
+puts "My name is #{name}" + name + " and I am from " + from + ". I " + doing + " and my hidden talent is I " + talent + "."
 
