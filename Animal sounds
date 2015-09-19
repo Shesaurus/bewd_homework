@@ -11,3 +11,14 @@ puts "The" + name.downcase + "goes" + sound.downcase.strip + "How many time?"
 times = gets.chomp.to_i
 
 puts "The" + name.downcase + "goes" + (sound.downcase.strip + "," + " ") *(num-1) + sound.downcase.strip + "."
+
+part1 = "The" + name.downcase + "goes"
+part2 = (sound.downcase + ",") * 9times) + "."
+puts part1 + part2
+
+part2 = part2 + sound.downcase + "."
+part2 += sound.downcase 
+
+#if you use more than once use a variable, but not if you're only using it once.
+
+#google chrome SADA systems offer developer tools
